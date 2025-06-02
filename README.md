@@ -19,6 +19,20 @@ Este portfólio tem como objetivo apresentar meus projetos, habilidades e experi
 
 ## Como Executar Localmente
 
-1. Clone o repositório:
+1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/seu-usuario/seu-portfolio.git
+   git clone https://github.com/guiestrela/portifolioWebDev.git
+   ```
+2.  **Instale as dependências:**
+    ```bash
+    npm install # ou yarn install ou pnpm install
+    ```
+3.  **Inicie o servidor de desenvolvimento:**
+    ```bash
+    npm run dev # ou yarn dev ou pnpm dev
+    ```
+    O projeto estará disponível em `http://localhost:5173` (a porta pode variar).
+
+
+
+
