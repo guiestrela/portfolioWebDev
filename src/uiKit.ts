@@ -307,7 +307,6 @@ interface LinkType {
     hovercolor?: string
     hoverdecoration?: string
 
-
     ///Mobile
 
     fontsizemob?: string
