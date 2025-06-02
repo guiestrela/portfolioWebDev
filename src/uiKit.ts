@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+
 interface DivFlexType {    
     gap?: string
     margintop?: string
@@ -31,9 +32,6 @@ interface DivFlexType {
     borderright?: string
     borderbottom?: string
     borderleft?: string
-
-
-
 
     ///Mobile
     justifycontentmob?: string
@@ -306,7 +304,7 @@ interface LinkType {
     textalign?: string
     paddingtop?: string
     paddingbottom?: string
-
+    hovercolor?: string
     hoverdecoration?: string
 
 
@@ -635,7 +633,7 @@ export const Texto = styled.p<TextoType>`
 `
 export const Link = styled.a<LinkType>`
     text-decoration:none;
-    font-family: 'Poppins', sans-serif;
+    font-family: ${props => props.fontfamily ? props.fontfamily : 'Poppins'}, sans-serif;
     font-size: ${props => props.fontsize ? props.fontsize : '40px'};
     font-weight: ${props => props.fontweight ? props.fontweight : '600'};
     color: ${props => props.color ? props.color : ''};
@@ -645,6 +643,7 @@ export const Link = styled.a<LinkType>`
 
     &:hover {
         text-decoration: ${props => props.hoverdecoration ? props.hoverdecoration : 'underline'};
+        color: ${props => props.hovercolor ? props.hovercolor : ''};
     }
 
     @media only screen and (max-width: 580px) {
@@ -660,7 +659,7 @@ export const Link = styled.a<LinkType>`
 
 export const Img = styled.img<ImgType>`
     width: 100%;
-    height: 100%;
+    height: 100%;    
 
     @media only screen and (max-width: 580px) {
         width: ${props => props.widthmob ? props.widthmob : ""};
