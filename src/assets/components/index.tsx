@@ -4,7 +4,6 @@ import logo from "../../assets/icons/logo.svg"
 import gitlogo from "../../assets/icons/gitIcongrey.svg"
 import linkedinlogo from "../../assets/icons/linkedinIcongrey.svg"
 
-
 function Header() {
     return(
         <>
