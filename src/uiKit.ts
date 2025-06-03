@@ -185,8 +185,6 @@ interface ContainerButtonType {
     marginleft?: string
     marginright?: string
     width?: string
-
-    //
     
     //mobile
 
@@ -228,7 +226,6 @@ interface ButtonType {
     //
 
     hover?: string
-
 
     //mobile
 
