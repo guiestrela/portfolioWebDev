@@ -113,6 +113,8 @@ interface DivFlexLogoType {
     borderradius?: string
     maxwidth?: string
     backgroundColor?: string
+    backgroundimage?: string
+
 
     ///Mobile
     justifycontentmob?: string
@@ -318,6 +320,9 @@ interface LinkType {
 }
 
 interface ImgType {
+    borderradius?: string
+    border?: string
+
     widthmob?: string
     heightmob?: string
 }
@@ -433,6 +438,7 @@ export const DivFlexLogo = styled.div<DivFlexLogoType>`
     gap: ${props => props.gap ? props.gap : ""};
     background-color: ${props => props.backgroundColor ? props.backgroundColor : ""};
     margin-top: ${props => props.margintop ? props.margintop : ""};
+    background-image: url(${props => props.backgroundimage ? props.backgroundimage : ""});
 
     @media only screen and (max-width: 580px) {
         width: ${props => props.widthmob ? props.widthmob : "100%"};
@@ -658,7 +664,9 @@ export const Link = styled.a<LinkType>`
 
 export const Img = styled.img<ImgType>`
     width: 100%;
-    height: 100%;    
+    height: 100%;   
+    border-radius: ${props => props.borderradius ? props.borderradius : ""};
+    border: ${props => props.border ? props.border : ""};
 
     @media only screen and (max-width: 580px) {
         width: ${props => props.widthmob ? props.widthmob : ""};
