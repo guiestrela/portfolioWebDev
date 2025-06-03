@@ -15,9 +15,11 @@ function Banner(){
                     alignitems="center" 
                     paddingTotal="80px 0" 
                     justifycontent="space-between"
+                    flexdirectionmob="column"
                     >
                     <DivContainerText
-                        flexdirection="column">
+                        flexdirection="column"
+                        paddingTotal="0 20px">
                         <Title
                             fontfamily="Roboto"
                             fontsize="58px"
@@ -39,7 +41,10 @@ function Banner(){
                     <DivFlexLogo
                         widthTotal="500px"
                         heightTotal="500px"
-                        paddingtop="25px">
+                        widthmob="380px"
+                        heightmob="380px"
+                        paddingtop="25px"
+                        paddingTotal="0 20px">
                         <Img 
                             src={perfil} 
                             borderradius="50%" 
