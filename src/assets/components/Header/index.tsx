@@ -33,7 +33,7 @@ function Header() {
                         fontsize="20px" 
                         fontweight="400" 
                         hoverdecoration="none"
-                        hovercolor="#000000">
+                        hovercolor="#2c9cec">
                     Home
                     </Link>
                     <Link 
@@ -43,7 +43,7 @@ function Header() {
                         fontweight="400" 
                         fontfamily="Roboto" 
                         hoverdecoration="none" 
-                        hovercolor="#000000">   
+                        hovercolor="#2c9cec">   
                     Sobre
                     </Link>
                     <Link 
@@ -53,7 +53,7 @@ function Header() {
                         fontweight="400" 
                         fontfamily="Roboto" 
                         hoverdecoration="none" 
-                        hovercolor="#000000">
+                        hovercolor="#2c9cec">
                     Tech Stack
                     </Link>
                     <Link 
@@ -63,7 +63,7 @@ function Header() {
                         fontweight="400" 
                         fontfamily="Roboto" 
                         hoverdecoration="none" 
-                        hovercolor="#000000">
+                        hovercolor="#2c9cec">
                     Projetos
                     </Link>
                     <Link 
@@ -73,7 +73,7 @@ function Header() {
                         fontweight="400" 
                         fontfamily="Roboto" 
                         hoverdecoration="none" 
-                        hovercolor="#000000">
+                        hovercolor="#2c9cec">
                     Contato
                     </Link>
                 </DivContainerText>
