@@ -1,8 +1,8 @@
-import { DivContainerText, DivFlex, DivFlexLogo, Img, Link } from "../../uiKit";
+import { DivContainerText, DivFlex, DivFlexLogo, Img, Link } from "../../../uiKit";
 
-import logo from "../../assets/icons/logo.svg"
-import gitlogo from "../../assets/icons/gitIcongrey.svg"
-import linkedinlogo from "../../assets/icons/linkedinIcongrey.svg"
+import logo from "../../icons/logo.svg";
+import gitlogo from "../../icons/gitIconGrey.svg";
+import linkedinlogo from "../../icons/linkedinIconGrey.svg";
 
 function Header() {
     return(
