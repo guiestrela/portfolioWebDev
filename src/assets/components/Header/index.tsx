@@ -82,8 +82,7 @@ function Header() {
                     <Link 
                         href="https://github.com/guiestrela" target="_blank">
                         <Img src={gitlogo} />
-                    </Link>
-                    
+                    </Link>                    
                     <Link 
                         href="https://www.linkedin.com/in/guilherme-estrela-4166a539/" 
                         target="_blank">
