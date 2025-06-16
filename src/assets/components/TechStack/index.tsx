@@ -6,6 +6,8 @@ import JavaScript from "../../icons/vscode-icons_file-type-js-official.svg"
 import React from "../../icons/logos_react.svg"
 import TypeScript from "../../icons/ts-logo-128.svg"
 import Vscode from "../../icons/vscode-icons_file-type-vscode.svg"
+import Git from "../../icons/logos_git-icon.svg"
+import Github from "../../icons/akar-icons_github-fill.svg"
 
 function TechStack() {
     return(
@@ -58,6 +60,8 @@ function TechStack() {
                         <Img src={React}/>
                         <Img src={TypeScript}/> 
                         <Img src={Vscode}/>               
+                        <Img src={Git}/>
+                        <Img src={Github}/>
                 </DivFlexImage>
             </DivFlex>
         </DivFlex>
