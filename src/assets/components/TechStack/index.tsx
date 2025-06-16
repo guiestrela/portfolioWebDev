@@ -54,14 +54,14 @@ function TechStack() {
                     gap="80px"
                     widthTotal="80px"
                     >
-                        <Img src={HTML}/>
-                        <Img src={CSS}/>
-                        <Img src={JavaScript}/>
-                        <Img src={React}/>
-                        <Img src={TypeScript}/> 
-                        <Img src={Vscode}/>               
-                        <Img src={Git}/>
-                        <Img src={Github}/>
+                    <Img src={HTML}/>
+                    <Img src={CSS}/>
+                    <Img src={JavaScript}/>
+                    <Img src={React}/>
+                    <Img src={TypeScript}/> 
+                    <Img src={Vscode}/>               
+                    <Img src={Git}/>
+                    <Img src={Github}/>
                 </DivFlexImage>
             </DivFlex>
         </DivFlex>
