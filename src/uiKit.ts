@@ -263,6 +263,7 @@ interface TitleH2Type {
     fontweight?: string
     textalign?: string
     paddingbottom?: string
+    paddingtop?: string
 
     ///Mobile
 
@@ -603,6 +604,7 @@ export const TitleH2 = styled.h2<TitleH2Type>`
     color: ${props => props.color ? props.color : ''};
     text-align: ${props => props.textalign ? props.textalign : 'center'};
     overflow-wrap: break-word;
+    padding-top: ${props => props.paddingtop ? props.paddingtop : ''};
     
     @media only screen and (max-width: 580px) {
         font-size: ${props => props.fontsizemob ? props.fontsizemob : '20px'};
