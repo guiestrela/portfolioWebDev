@@ -52,8 +52,7 @@ function TechStack() {
                     alignitems="center"
                     justifycontent="center"
                     gap="80px"
-                    widthTotal="80px"
-                    >
+                    widthTotal="80px">
                     <Img src={HTML}/>
                     <Img src={CSS}/>
                     <Img src={JavaScript}/>
