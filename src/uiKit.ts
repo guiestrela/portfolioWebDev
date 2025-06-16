@@ -90,6 +90,8 @@ interface DivFlexImageType {
     paddingrightmob?: string
     paddingtopmob?: string
     paddingbottommob?: string
+    displaymob?: string
+    gridcolumn?: string
 }
 
 interface DivFlexLogoType {    
@@ -414,7 +416,9 @@ export const DivFlexImage = styled.div<DivFlexImageType>`
         border: ${props => props.bordermob ? props.bordermob : ""};
         border-radius: ${props => props.borderradiusmob ? props.borderradiusmob : ""};
         gap: ${props => props.gapmob ? props.gapmob : ""};
-        margin-top: ${props => props.margintopmob ? props.margintopmob : ""};    
+        margin-top: ${props => props.margintopmob ? props.margintopmob : ""};   
+        display: ${props => props.displaymob ? props.displaymob : ""}; 
+        grid-template-columns: ${props => props.gridcolumn ? props.gridcolumn : ""};
     }  
 `
 

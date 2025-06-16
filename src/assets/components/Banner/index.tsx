@@ -13,7 +13,7 @@ function Banner(){
                     width="1440px" 
                     height="100%" 
                     alignitems="center" 
-                    paddingTotal="80px 0" 
+                    paddingTotal="180px 0" 
                     justifycontent="space-between"
                     flexdirectionmob="column"
                     >

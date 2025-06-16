@@ -17,7 +17,7 @@ function TechStack() {
         justifycontent="center">
             <DivFlex
                 width="1440px" 
-                height="59px" 
+                height="100px" 
                 alignitems="center" 
                 justifycontent="center"
                 flexdirection="column"
@@ -44,7 +44,8 @@ function TechStack() {
                         fontfamily="Roboto"
                         textalign="center"
                         paddingtop="20px"
-                        paddingbottom="140px">
+                        paddingbottom="140px"
+                        paddingbottommob="80px">
                         Aqui estão algumas das tecnologias que eu tenho conhecimento e experiência.
                     </Texto>
                 </DivContainerText>
@@ -52,19 +53,25 @@ function TechStack() {
                     alignitems="center"
                     justifycontent="center"
                     gap="80px"
-                    widthTotal="80px">
+                    widthTotal="80px"
+                    paddingbottom="80px"                  
+                    widthmob="60px"
+                    justifycontentmob="center"
+                    alignitemsmob="start"
+                    displaymob="grid"
+                    gridcolumn="60px 60px 60px">
                     <Img src={HTML}/>
                     <Img src={CSS}/>
                     <Img src={JavaScript}/>
                     <Img src={React}/>
-                    <Img src={TypeScript}/> 
+                    <Img src={TypeScript}/>   
                     <Img src={Vscode}/>               
                     <Img src={Git}/>
-                    <Img src={Github}/>
+                    <Img src={Github}/>                
                 </DivFlexImage>
+                
             </DivFlex>
         </DivFlex>
     )
 }
-
 export default TechStack;
