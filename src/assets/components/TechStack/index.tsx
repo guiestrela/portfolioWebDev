@@ -1,4 +1,11 @@
-import { DivContainerText, DivFlex, Texto, TitleH2 } from "../../../uiKit";
+import { DivContainerText, DivFlex, DivFlexImage, Img, Texto, TitleH2 } from "../../../uiKit";
+
+import HTML from "../../icons/vscode-icons_file-type-html.svg"
+import CSS from "../../icons/vscode-icons_file-type-css.svg"
+import JavaScript from "../../icons/vscode-icons_file-type-js-official.svg"
+import React from "../../icons/logos_react.svg"
+import TypeScript from "../../icons/ts-logo-128.svg"
+import Vscode from "../../icons/vscode-icons_file-type-vscode.svg"
 
 function TechStack() {
     return(
@@ -11,7 +18,8 @@ function TechStack() {
                 height="59px" 
                 alignitems="center" 
                 justifycontent="center"
-                paddingTotal="80px 0">
+                flexdirection="column"
+                paddingTotal="180px 0">
                 <DivContainerText
                     flexdirection="column"
                     gap="20px"
@@ -23,6 +31,7 @@ function TechStack() {
                         fontweight="bold"
                         fontfamily="Roboto"
                         paddingtop="180px"
+                        paddingbottom="20px"
                         textalign="center">
                         Meus Conhecimentos
                     </TitleH2>
@@ -32,10 +41,24 @@ function TechStack() {
                         fontweight="400"
                         fontfamily="Roboto"
                         textalign="center"
-                        paddingtop="20px">
+                        paddingtop="20px"
+                        paddingbottom="140px">
                         Aqui estão algumas das tecnologias que eu tenho conhecimento e experiência.
                     </Texto>
                 </DivContainerText>
+                <DivFlexImage                    
+                    alignitems="center"
+                    justifycontent="center"
+                    gap="80px"
+                    widthTotal="80px"
+                    >
+                        <Img src={HTML}/>
+                        <Img src={CSS}/>
+                        <Img src={JavaScript}/>
+                        <Img src={React}/>
+                        <Img src={TypeScript}/> 
+                        <Img src={Vscode}/>               
+                </DivFlexImage>
             </DivFlex>
         </DivFlex>
     )
