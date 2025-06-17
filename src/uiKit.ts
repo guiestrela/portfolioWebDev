@@ -656,7 +656,6 @@ export const Link = styled.a<LinkType>`
     }
 `;
 
-
 export const Img = styled.img<ImgType>`
     width: 100%;
     height: 100%;   
