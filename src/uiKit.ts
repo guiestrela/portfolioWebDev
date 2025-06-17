@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 interface DivFlexType {    
     gap?: string
     margintop?: string
@@ -51,272 +50,6 @@ interface DivFlexType {
     paddingrightmob?: string
     paddingtopmob?: string
     paddingbottommob?: string
-}
-
-interface DivFlexImageType {    
-    gap?: string
-    margintop?: string
-    fontfamily?: string
-    fontsize?: string
-    alignitems?: string
-    justifycontent?: string
-    widthTotal?: string
-    flex?: string
-    flexdirection?: string
-    paddingTotal?: string
-    paddingleft?: string
-    paddingright?: string
-    paddingtop?: string
-    paddingbottom?: string
-    heightTotal?: string
-    axwidth?: string
-    border?: string
-    borderradius?: string
-    maxwidth?: string
-    backgroundColor?: string
-
-    //Mobile
-    justifycontentmob?: string
-    alignitemsmob?: string
-    widthmob?: string
-    heightmob?: string
-    flexdirectionmob?: string
-    paddingTotalmob?: string
-    bordermob?: string
-    borderradiusmob?: string
-    margintopmob?: string
-    gapmob?: string
-    paddingleftmob?: string
-    paddingrightmob?: string
-    paddingtopmob?: string
-    paddingbottommob?: string
-    displaymob?: string
-    gridcolumn?: string
-}
-
-interface DivFlexLogoType {    
-    gap?: string
-    margintop?: string
-    fontfamily?: string
-    fontsize?: string
-    alignitems?: string
-    justifycontent?: string
-    widthTotal?: string
-    flex?: string
-    flexdirection?: string
-    paddingTotal?: string
-    paddingleft?: string
-    paddingright?: string
-    paddingtop?: string
-    paddingbottom?: string
-    heightTotal?: string
-    axwidth?: string
-    border?: string
-    borderradius?: string
-    maxwidth?: string
-    backgroundColor?: string
-    backgroundimage?: string
-
-    //Mobile
-    justifycontentmob?: string
-    alignitemsmob?: string
-    widthmob?: string
-    heightmob?: string
-    flexdirectionmob?: string
-    paddingTotalmob?: string
-    bordermob?: string
-    borderradiusmob?: string
-    margintopmob?: string
-    gapmob?: string
-    paddingleftmob?: string
-    paddingrightmob?: string
-    paddingtopmob?: string
-    paddingbottommob?: string
-}
-
-interface DivContainerTextType {    
-    gap?: string
-    margintop?: string
-    fontfamily?: string
-    fontsize?: string
-    alignitems?: string
-    justifycontent?: string
-    widthTotal?: string
-    flex?: string
-    flexdirection?: string
-    paddingTotal?: string
-    paddingleft?: string
-    paddingright?: string
-    paddingtop?: string
-    paddingbottom?: string
-    heightTotal?: string
-    axwidth?: string
-    border?: string
-    borderradius?: string
-    maxwidth?: string
-    backgroundColor?: string
-
-    //Mobile
-    justifycontentmob?: string
-    alignitemsmob?: string
-    widthmob?: string
-    heightmob?: string
-    flexdirectionmob?: string
-    paddingTotalmob?: string
-    bordermob?: string
-    borderradiusmob?: string
-    margintopmob?: string
-    gapmob?: string
-    paddingleftmob?: string
-    paddingrightmob?: string
-    paddingtopmob?: string
-    paddingbottommob?: string
-}
-
-interface ContainerButtonType {
-    flex?: string
-    paddingtop?: string
-    paddingbottom?: string
-    justifycontent?: string
-    paddingleft?: string
-    paddingright?: string
-    flexdirection?: string
-    gap?: string
-    alignitems?: string 
-    marginleft?: string
-    marginright?: string
-    width?: string
-    
-    //mobile
-    justifycontentmob?: string
-    alignitemsmob?: string    
-    paddingleftmob?:string
-    paddingrightmob?:string
-    paddingtopmob?:string
-    paddingbottommob?:string
-    marginleftmob?: string
-    marginrightmob?: string
-    flexdirectionmob?: string
-    gapmob?: string
-
-}
-
-interface ButtonType {
-    border?: string
-    borderradius?: string
-    padding?: string
-    backgroundColor?: string
-    fontfamily?: string
-    fontsize?: string
-    color?: string
-    width?: string
-    height?: string
-    maxwidth?: string
-    margintop?: string
-    justifycontent?: string
-    alignitems?: string
-    fontweight?: string
-    marginbotton?: string
-    marginleft?: string
-    marginright?: string
-    gap?: string
-    textalign?: string
-
-    //Hover
-    hover?: string
-
-    //mobile
-    widthmob?: string
-    heightmob?: string
-    justifycontentmob?: string
-    alignitemsmob?: string
-    fontsizemob?: string
-}
-
-interface TitleType {
-    color?: string
-    fontsize?: string
-    fontfamily?: string
-    margintop?: string
-    fontweight?: string
-    textalign?: string
-    paddingbottom?: string
-
-    //Mobile
-    fontsizemob?: string
-    textalignmob?: string
-    paddingbottommob?: string
-    paddingleftmob?: string
-    paddingrightmob?: string
-    paddingtopmob?: string
-}
-
-interface TitleH2Type {
-    color?: string
-    fontsize?: string
-    fontfamily?: string
-    margintop?: string
-    fontweight?: string
-    textalign?: string
-    paddingbottom?: string
-    paddingtop?: string
-
-    //Mobile
-    fontsizemob?: string
-    textalignmob?: string
-    paddingbottommob?: string
-    paddingleftmob?: string
-    paddingrightmob?: string
-    paddingtopmob?: string
-}
-
-interface TextoType {
-    color?: string
-    fontsize?: string
-    fontfamily?: string
-    margintop?: string
-    fontweight?: string
-    textalign?: string
-    paddingtop?: string
-    paddingbottom?: string
-
-    //Mobile
-    fontsizemob?: string
-    textalignmob?: string
-    paddingtopmob?: string
-    paddingleftmob?: string
-    paddingrightmob?: string
-    paddingbottommob?: string
-}
-
-interface LinkType {
-    color?: string
-    fontsize?: string
-    fontfamily?: string
-    margintop?: string
-    fontweight?: string
-    textalign?: string
-    paddingtop?: string
-    paddingbottom?: string
-    hovercolor?: string
-    hoverdecoration?: string
-
-    //Mobile
-    fontsizemob?: string
-    textalignmob?: string
-    paddingtopmob?: string
-    paddingleftmob?: string
-    paddingrightmob?: string
-    paddingbottommob?: string
-}
-
-interface ImgType {
-    borderradius?: string
-    border?: string
-
-    //Mobile
-    widthmob?: string
-    heightmob?: string
 }
 
 export const DivFlex = styled.div<DivFlexType>`
@@ -375,6 +108,48 @@ export const DivFlex = styled.div<DivFlexType>`
     }    
 `;
 
+interface DivFlexImageType {    
+    gap?: string
+    margintop?: string
+    fontfamily?: string
+    fontsize?: string
+    alignitems?: string
+    justifycontent?: string
+    widthTotal?: string
+    flex?: string
+    flexdirection?: string
+    paddingTotal?: string
+    paddingleft?: string
+    paddingright?: string
+    paddingtop?: string
+    paddingbottom?: string
+    heightTotal?: string
+    axwidth?: string
+    border?: string
+    borderradius?: string
+    maxwidth?: string
+    backgroundColor?: string
+
+    //Mobile
+    justifycontentmob?: string
+    alignitemsmob?: string
+    widthmob?: string
+    heightmob?: string
+    flexdirectionmob?: string
+    paddingTotalmob?: string
+    bordermob?: string
+    borderradiusmob?: string
+    margintopmob?: string
+    gapmob?: string
+    paddingleftmob?: string
+    paddingrightmob?: string
+    paddingtopmob?: string
+    paddingbottommob?: string
+    displaymob?: string
+    gridcolumn?: string
+}
+
+
 export const DivFlexImage = styled.div<DivFlexImageType>`
     display: flex;
     height: ${props => props.heightTotal ? props.heightTotal : ""};
@@ -411,8 +186,48 @@ export const DivFlexImage = styled.div<DivFlexImageType>`
         margin-top: ${props => props.margintopmob ? props.margintopmob : ""};   
         display: ${props => props.displaymob ? props.displaymob : ""}; 
         grid-template-columns: ${props => props.gridcolumn ? props.gridcolumn : ""};
-    }  
-`
+    }
+`;
+
+interface DivFlexLogoType {    
+    gap?: string
+    margintop?: string
+    fontfamily?: string
+    fontsize?: string
+    alignitems?: string
+    justifycontent?: string
+    widthTotal?: string
+    flex?: string
+    flexdirection?: string
+    paddingTotal?: string
+    paddingleft?: string
+    paddingright?: string
+    paddingtop?: string
+    paddingbottom?: string
+    heightTotal?: string
+    axwidth?: string
+    border?: string
+    borderradius?: string
+    maxwidth?: string
+    backgroundColor?: string
+    backgroundimage?: string
+
+    //Mobile
+    justifycontentmob?: string
+    alignitemsmob?: string
+    widthmob?: string
+    heightmob?: string
+    flexdirectionmob?: string
+    paddingTotalmob?: string
+    bordermob?: string
+    borderradiusmob?: string
+    margintopmob?: string
+    gapmob?: string
+    paddingleftmob?: string
+    paddingrightmob?: string
+    paddingtopmob?: string
+    paddingbottommob?: string
+}
 
 export const DivFlexLogo = styled.div<DivFlexLogoType>`
     display: flex;
@@ -449,8 +264,36 @@ export const DivFlexLogo = styled.div<DivFlexLogoType>`
         border-radius: ${props => props.borderradiusmob ? props.borderradiusmob : ""};
         gap: ${props => props.gapmob ? props.gapmob : ""};
         margin-top: ${props => props.margintopmob ? props.margintopmob : ""};    
-    }  
-`
+    }
+`;
+
+interface ContainerButtonType {
+    flex?: string
+    paddingtop?: string
+    paddingbottom?: string
+    justifycontent?: string
+    paddingleft?: string
+    paddingright?: string
+    flexdirection?: string
+    gap?: string
+    alignitems?: string 
+    marginleft?: string
+    marginright?: string
+    width?: string
+    
+    //mobile
+    justifycontentmob?: string
+    alignitemsmob?: string    
+    paddingleftmob?:string
+    paddingrightmob?:string
+    paddingtopmob?:string
+    paddingbottommob?:string
+    marginleftmob?: string
+    marginrightmob?: string
+    flexdirectionmob?: string
+    gapmob?: string
+}
+
 export const ContainerButton = styled.div<ContainerButtonType>`
     display: flex;
     width: ${props => props.width ? props.width : ""};
@@ -486,6 +329,39 @@ export const ContainerButton = styled.div<ContainerButtonType>`
 
     }
 `;
+
+interface ButtonType {
+    border?: string
+    borderradius?: string
+    padding?: string
+    backgroundColor?: string
+    fontfamily?: string
+    fontsize?: string
+    color?: string
+    width?: string
+    height?: string
+    maxwidth?: string
+    margintop?: string
+    justifycontent?: string
+    alignitems?: string
+    fontweight?: string
+    marginbotton?: string
+    marginleft?: string
+    marginright?: string
+    gap?: string
+    textalign?: string
+
+    //Hover
+    hover?: string
+
+    //mobile
+    widthmob?: string
+    heightmob?: string
+    justifycontentmob?: string
+    alignitemsmob?: string
+    fontsizemob?: string
+}
+
 
 export const Button = styled.button<ButtonType>`
     display: flex;
@@ -536,6 +412,45 @@ export const LightButton = styled.button`
     cursor: pointer;
 `;
 
+interface DivContainerTextType {    
+    gap?: string
+    margintop?: string
+    fontfamily?: string
+    fontsize?: string
+    alignitems?: string
+    justifycontent?: string
+    widthTotal?: string
+    flex?: string
+    flexdirection?: string
+    paddingTotal?: string
+    paddingleft?: string
+    paddingright?: string
+    paddingtop?: string
+    paddingbottom?: string
+    heightTotal?: string
+    axwidth?: string
+    border?: string
+    borderradius?: string
+    maxwidth?: string
+    backgroundColor?: string
+
+    //Mobile
+    justifycontentmob?: string
+    alignitemsmob?: string
+    widthmob?: string
+    heightmob?: string
+    flexdirectionmob?: string
+    paddingTotalmob?: string
+    bordermob?: string
+    borderradiusmob?: string
+    margintopmob?: string
+    gapmob?: string
+    paddingleftmob?: string
+    paddingrightmob?: string
+    paddingtopmob?: string
+    paddingbottommob?: string
+}
+
 export const DivContainerText = styled.div<DivContainerTextType>`
     display: flex;
     height: ${props => props.heightTotal ? props.heightTotal : ""};
@@ -571,7 +486,25 @@ export const DivContainerText = styled.div<DivContainerTextType>`
         gap: ${props => props.gapmob ? props.gapmob : ""};
         margin-top: ${props => props.margintopmob ? props.margintopmob : ""};    
     }  
-`
+`;
+
+interface TitleType {
+    color?: string
+    fontsize?: string
+    fontfamily?: string
+    margintop?: string
+    fontweight?: string
+    textalign?: string
+    paddingbottom?: string
+
+    //Mobile
+    fontsizemob?: string
+    textalignmob?: string
+    paddingbottommob?: string
+    paddingleftmob?: string
+    paddingrightmob?: string
+    paddingtopmob?: string
+}
 
 export const Title = styled.h1<TitleType>`
     
@@ -591,6 +524,25 @@ export const Title = styled.h1<TitleType>`
         padding-top: ${props => props.paddingtopmob ? props.paddingtopmob : ''};
     }
 `;
+
+interface TitleH2Type {
+    color?: string
+    fontsize?: string
+    fontfamily?: string
+    margintop?: string
+    fontweight?: string
+    textalign?: string
+    paddingbottom?: string
+    paddingtop?: string
+
+    //Mobile
+    fontsizemob?: string
+    textalignmob?: string
+    paddingbottommob?: string
+    paddingleftmob?: string
+    paddingrightmob?: string
+    paddingtopmob?: string
+}
 
 export const TitleH2 = styled.h2<TitleH2Type>`
     
@@ -612,6 +564,25 @@ export const TitleH2 = styled.h2<TitleH2Type>`
     }
 `;
 
+interface TextoType {
+    color?: string
+    fontsize?: string
+    fontfamily?: string
+    margintop?: string
+    fontweight?: string
+    textalign?: string
+    paddingtop?: string
+    paddingbottom?: string
+
+    //Mobile
+    fontsizemob?: string
+    textalignmob?: string
+    paddingtopmob?: string
+    paddingleftmob?: string
+    paddingrightmob?: string
+    paddingbottommob?: string
+}
+
 export const Texto = styled.p<TextoType>`
     font-family: 'Poppins', sans-serif;
     font-size: ${props => props.fontsize ? props.fontsize : '40px'};
@@ -621,7 +592,6 @@ export const Texto = styled.p<TextoType>`
     padding-top: ${props => props.paddingtop ? props.paddingtop : ''};
     padding-bottom: ${props => props.paddingbottom ? props.paddingbottom : ''};
 
-    
     @media only screen and (max-width: 580px) {
         font-size: ${props => props.fontsizemob ? props.fontsizemob : '20px'};
         text-align: ${props => props.textalignmob ? props.textalignmob : 'center'};
@@ -630,7 +600,29 @@ export const Texto = styled.p<TextoType>`
         padding-right: ${props => props.paddingrightmob ? props.paddingrightmob : ''};
         padding-bottom: ${props => props.paddingbottommob ? props.paddingbottommob : ''};
     }
-`
+`;
+
+interface LinkType {
+    color?: string
+    fontsize?: string
+    fontfamily?: string
+    margintop?: string
+    fontweight?: string
+    textalign?: string
+    paddingtop?: string
+    paddingbottom?: string
+    hovercolor?: string
+    hoverdecoration?: string
+
+    //Mobile
+    fontsizemob?: string
+    textalignmob?: string
+    paddingtopmob?: string
+    paddingleftmob?: string
+    paddingrightmob?: string
+    paddingbottommob?: string
+}
+
 export const Link = styled.a<LinkType>`
     text-decoration:none;
     font-family: ${props => props.fontfamily ? props.fontfamily : 'Poppins'}, sans-serif;
@@ -655,6 +647,15 @@ export const Link = styled.a<LinkType>`
         padding-bottom: ${props => props.paddingbottommob ? props.paddingbottommob : ''};
     }
 `;
+
+interface ImgType {
+    borderradius?: string
+    border?: string
+
+    //Mobile
+    widthmob?: string
+    heightmob?: string
+}
 
 export const Img = styled.img<ImgType>`
     width: 100%;
