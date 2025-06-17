@@ -33,7 +33,7 @@ interface DivFlexType {
     borderbottom?: string
     borderleft?: string
 
-    ///Mobile
+    //Mobile
     justifycontentmob?: string
     alignitemsmob?: string
     heightmob?: string
@@ -75,7 +75,7 @@ interface DivFlexImageType {
     maxwidth?: string
     backgroundColor?: string
 
-    ///Mobile
+    //Mobile
     justifycontentmob?: string
     alignitemsmob?: string
     widthmob?: string
@@ -117,8 +117,7 @@ interface DivFlexLogoType {
     backgroundColor?: string
     backgroundimage?: string
 
-
-    ///Mobile
+    //Mobile
     justifycontentmob?: string
     alignitemsmob?: string
     widthmob?: string
@@ -157,7 +156,7 @@ interface DivContainerTextType {
     maxwidth?: string
     backgroundColor?: string
 
-    ///Mobile
+    //Mobile
     justifycontentmob?: string
     alignitemsmob?: string
     widthmob?: string
@@ -189,7 +188,6 @@ interface ContainerButtonType {
     width?: string
     
     //mobile
-
     justifycontentmob?: string
     alignitemsmob?: string    
     paddingleftmob?:string
@@ -202,7 +200,6 @@ interface ContainerButtonType {
     gapmob?: string
 
 }
-
 
 interface ButtonType {
     border?: string
@@ -225,12 +222,10 @@ interface ButtonType {
     gap?: string
     textalign?: string
 
-    //
-
+    //Hover
     hover?: string
 
     //mobile
-
     widthmob?: string
     heightmob?: string
     justifycontentmob?: string
@@ -247,8 +242,7 @@ interface TitleType {
     textalign?: string
     paddingbottom?: string
 
-    ///Mobile
-
+    //Mobile
     fontsizemob?: string
     textalignmob?: string
     paddingbottommob?: string
@@ -267,8 +261,7 @@ interface TitleH2Type {
     paddingbottom?: string
     paddingtop?: string
 
-    ///Mobile
-
+    //Mobile
     fontsizemob?: string
     textalignmob?: string
     paddingbottommob?: string
@@ -287,8 +280,7 @@ interface TextoType {
     paddingtop?: string
     paddingbottom?: string
 
-    ///Mobile
-
+    //Mobile
     fontsizemob?: string
     textalignmob?: string
     paddingtopmob?: string
@@ -309,8 +301,7 @@ interface LinkType {
     hovercolor?: string
     hoverdecoration?: string
 
-    ///Mobile
-
+    //Mobile
     fontsizemob?: string
     textalignmob?: string
     paddingtopmob?: string
@@ -323,6 +314,7 @@ interface ImgType {
     borderradius?: string
     border?: string
 
+    //Mobile
     widthmob?: string
     heightmob?: string
 }
