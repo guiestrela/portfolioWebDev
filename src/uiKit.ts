@@ -651,6 +651,9 @@ export const Link = styled.a<LinkType>`
 interface ImgType {
     borderradius?: string
     border?: string
+    width?: string
+    height?: string
+    alignitens?: string
 
     //Mobile
     widthmob?: string
@@ -658,10 +661,12 @@ interface ImgType {
 }
 
 export const Img = styled.img<ImgType>`
-    width: 100%;
-    height: 100%;   
+    width: ${props => props.width ? props.width : "100%"};
+    height: ${props => props.height ? props.height : "100%"};;   
     border-radius: ${props => props.borderradius ? props.borderradius : ""};
     border: ${props => props.border ? props.border : ""};
+    align-items: ${props => props.alignitens ? props.alignitens : ""};
+    
 
     @media only screen and (max-width: 580px) {
         width: ${props => props.widthmob ? props.widthmob : ""};
