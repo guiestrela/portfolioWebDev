@@ -17,6 +17,7 @@ interface DivFlexType {
     border?: string
     borderradius?: string
     maxwidth?: string
+    background?: string
     backgroundColor?: string
     backgroundimage?: string
     backgroundrepeat?: string
@@ -68,6 +69,7 @@ export const DivFlex = styled.div<DivFlexType>`
     border: ${props => props.border ? props.border : ""};
     border-radius: ${props => props.borderradius ? props.borderradius : ""};
     gap: ${props => props.gap ? props.gap : ""};
+    background: ${props => props.background ? props.background : ""};
     background-color: ${props => props.backgroundColor ? props.backgroundColor : ""};
     background-image: ${props => props.backgroundimage ? props.backgroundimage : ""};
     background-repeat: ${props => props.backgroundrepeat ? props.backgroundrepeat : ""};

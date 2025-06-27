@@ -60,17 +60,24 @@ function ProjectGrid(){
 
                 <DivFlex
                     flexdirection="row"
-                    gap="40px">
+                    paddingTotal="20px 20px"
+                    gap="40px"
+                    borderradius="10px"
+                    background="radial-gradient(circle,#F5F5F5 15%, #E2E2E2 50%, #F5F5F5 85%)">
+
                     {/* projeto background remover */}
 
                 <DivFlex 
-                        width="373px"                        
+                        width="373px"                                                
                         backgroundColor="#FFFFFF"
                         flexdirection="column"
-                        paddingbottom="40px"                        
+                        paddingbottom="40px"  
+                        borderradius="10px"                      
                         >
                         <DivFlexImage>
-                            <Img src={BackGroundRemover}/>
+                            <Img
+                                borderradius="10px" 
+                                src={BackGroundRemover}/>
                         </DivFlexImage>
                         <DivContainerText
                             flexdirection="column"
@@ -179,12 +186,15 @@ function ProjectGrid(){
 
                     <DivFlex 
                         width="373px" 
+                        borderradius="10px"                         
                         backgroundColor="#FFFFFF"
                         flexdirection="column"
                         paddingbottom="40px"                        
                         >
                         <DivFlexImage>
-                            <Img src={Pco}/>
+                            <Img
+                                borderradius="10px" 
+                                src={Pco}/>
                         </DivFlexImage>
                         <DivContainerText
                             flexdirection="column"
