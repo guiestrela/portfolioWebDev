@@ -1,4 +1,9 @@
-import { DivContainerText, DivFlex, DivFlexLogo, Img, Link } from "../../../uiKit";
+import { 
+    DivContainerText, 
+    DivFlex, 
+    DivFlexLogo, 
+    Img, 
+    Link } from "../../../uiKit";
 
 import logo from "../../icons/logo.svg";
 import gitlogo from "../../icons/gitIconGrey.svg";

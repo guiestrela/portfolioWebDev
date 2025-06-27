@@ -1,4 +1,11 @@
-import { DivContainerText, DivFlex, DivFlexImage, Img, Link, Texto, TitleH2 } from "../../../uiKit";
+import { 
+    DivContainerText, 
+    DivFlex, 
+    DivFlexImage, 
+    Img, 
+    Link, 
+    Texto, 
+    TitleH2 } from "../../../uiKit";
 
 import BackGroundRemover from "../../images/backgroundremover.png"
 import Pco from "../../images/PCO.png"

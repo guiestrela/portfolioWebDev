@@ -1,4 +1,10 @@
-import { DivContainerText, DivFlex, DivFlexLogo, Img, Texto, Title } from "../../../uiKit";
+import { 
+    DivContainerText, 
+    DivFlex, 
+    DivFlexLogo, 
+    Img, 
+    Texto, 
+    Title } from "../../../uiKit";
 
 import perfil from "../../images/perfil.png"
 

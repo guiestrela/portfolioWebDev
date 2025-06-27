@@ -1,4 +1,10 @@
-import { DivContainerText, DivFlex, DivFlexImage, Img, Texto, TitleH2 } from "../../../uiKit";
+import { 
+    DivContainerText, 
+    DivFlex, 
+    DivFlexImage, 
+    Img, 
+    Texto, 
+    TitleH2 } from "../../../uiKit";
 
 import HTML from "../../icons/vscode-icons_file-type-html.svg"
 import CSS from "../../icons/vscode-icons_file-type-css.svg"
