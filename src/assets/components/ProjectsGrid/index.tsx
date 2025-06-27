@@ -62,13 +62,12 @@ function ProjectGrid(){
                         flexdirection="column"
                         paddingbottom="40px"                        
                         >
-                        <DivFlexImage
-                            widthTotal="375px"                         
-                            >
+                        <DivFlexImage>
                             <Img src={BackGroundRemover}/>
                         </DivFlexImage>
                         <DivContainerText
                             flexdirection="column"
+                            heightTotal="100px"
                             gap="20px"
                             alignitems="center"
                             justifycontent="center">
@@ -172,19 +171,18 @@ function ProjectGrid(){
                     {/* projeto PCO */}
 
                     <DivFlex 
-                        width="373px"                        
+                        width="373px" 
                         backgroundColor="#FFFFFF"
                         flexdirection="column"
                         paddingbottom="40px"                        
                         >
-                        <DivFlexImage
-                            widthTotal="375px"                         
-                            >
+                        <DivFlexImage>
                             <Img src={Pco}/>
                         </DivFlexImage>
                         <DivContainerText
                             flexdirection="column"
                             gap="20px"
+                            heightTotal="100px"
                             alignitems="center"
                             justifycontent="center">
                             <TitleH2
