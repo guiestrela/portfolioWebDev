@@ -1,4 +1,9 @@
-import { DivContainerText, DivFlex, DivFlexLogo, Img, Link, Texto } from "../../../uiKit";
+import { 
+    DivContainerText, 
+    DivFlex, DivFlexLogo, 
+    Img, 
+    Link, 
+    Texto } from "../../../uiKit";
 
 import gitlogo from "../../icons/gitIconGrey.svg";
 import linkedinlogo from "../../icons/linkedinIconGrey.svg";
@@ -35,7 +40,7 @@ function Footer() {
                             fontweight="400"
                             fontfamily="Roboto"
                             textalign="center">
-                            © 2023 Guilherme Estrela. Todos os direitos reservados.
+                            © 2025 Guilherme Estrela. Todos os direitos reservados.
                         </Texto>
                         <Texto
                             color="#666666"
