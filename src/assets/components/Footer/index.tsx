@@ -1,7 +1,8 @@
+import { DivContainerText, DivFlex, DivFlexLogo, Img, Link, Texto } from "../../../uiKit";
 
 import gitlogo from "../../icons/gitIconGrey.svg";
 import linkedinlogo from "../../icons/linkedinIconGrey.svg";
-import { DivContainerText, DivFlex, DivFlexLogo, Img, Link, Texto } from "../../../uiKit";
+import whatsapplogo from "../../icons/whatsapp-50.png";
 
 function Footer() {
     return (
@@ -42,7 +43,7 @@ function Footer() {
                             fontweight="400"
                             fontfamily="Roboto"
                             textalign="center">
-                            guilhermestrela@gmail.com - 61 99830-6076
+                            guilhermestrela@gmail.com
                         </Texto>
                         <DivFlexLogo 
                         gap="10px"
@@ -55,6 +56,14 @@ function Footer() {
                             href="https://www.linkedin.com/in/guilherme-estrela-4166a539/" 
                             target="_blank">
                             <Img src={linkedinlogo} />
+                        </Link>
+                        <Link 
+                            href="https://wa.me/5561998306076" 
+                            target="_blank">
+                            <Img 
+                                width="30px" 
+                                height="30px" 
+                                src={whatsapplogo} />
                         </Link>
                     </DivFlexLogo>
                     </DivContainerText>
