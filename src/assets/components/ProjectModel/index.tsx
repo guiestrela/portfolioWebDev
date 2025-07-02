@@ -1,4 +1,12 @@
-import { DivContainerText, DivFlex, DivFlexImage, Img, Link, Texto, TitleH2 } from "../../../uiKit";
+import { 
+    DivContainerText, 
+    DivFlex, 
+    DivFlexImage, 
+    Img, 
+    Link, 
+    Texto, 
+    TitleH2 
+} from "../../../uiKit";
 
 interface ProjectModelProps {
     foto: string;
