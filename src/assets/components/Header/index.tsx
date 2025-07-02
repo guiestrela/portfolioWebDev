@@ -9,6 +9,7 @@ import logo from "../../icons/logo.svg";
 import gitlogo from "../../icons/gitIconGrey.svg";
 import linkedinlogo from "../../icons/linkedinIconGrey.svg";
 
+
 function Header() {
     return(
         <>
@@ -33,7 +34,7 @@ function Header() {
                         justifycontent="space-between">
                         <Link 
                             color="#666666" 
-                            href="#" 
+                            href="/" 
                             fontfamily="Roboto" 
                             fontsize="20px" 
                             fontweight="400" 
@@ -43,7 +44,7 @@ function Header() {
                         </Link>
                         <Link 
                             color="#666666" 
-                            href="#"  
+                            href="/#sobre"  
                             fontsize="20px" 
                             fontweight="400" 
                             fontfamily="Roboto" 
@@ -53,7 +54,7 @@ function Header() {
                         </Link>
                         <Link 
                             color="#666666" 
-                            href="#"  
+                            href="/TechStack"
                             fontsize="20px" 
                             fontweight="400" 
                             fontfamily="Roboto" 
@@ -63,7 +64,7 @@ function Header() {
                         </Link>
                         <Link 
                             color="#666666" 
-                            href="#"   
+                            href="/#projetos"   
                             fontsize="20px" 
                             fontweight="400" 
                             fontfamily="Roboto" 
@@ -73,7 +74,7 @@ function Header() {
                         </Link>
                         <Link 
                             color="#666666" 
-                            href="#"  
+                            href="/#contato"  
                             fontsize="20px" 
                             fontweight="400" 
                             fontfamily="Roboto" 
