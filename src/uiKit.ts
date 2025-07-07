@@ -625,7 +625,7 @@ interface LinkType {
     paddingbottommob?: string
 }
 
-export const Link = styled.a<LinkType>`
+export const LinkTo = styled.a<LinkType>`
     text-decoration:none;
     font-family: ${props => props.fontfamily ? props.fontfamily : 'Poppins'}, sans-serif;
     font-size: ${props => props.fontsize ? props.fontsize : '40px'};

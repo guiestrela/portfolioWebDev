@@ -1,9 +1,10 @@
+
 import { 
     DivContainerText, 
     DivFlex, 
     DivFlexLogo, 
     Img, 
-    Link } from "../../../uiKit";
+    LinkTo} from "../../../uiKit";
 
 import logo from "../../icons/logo.svg";
 import gitlogo from "../../icons/gitIconGrey.svg";
@@ -32,7 +33,7 @@ function Header() {
                         flexdirection="row" 
                         alignitems="center" 
                         justifycontent="space-between">
-                        <Link 
+                        <LinkTo 
                             color="#666666" 
                             href="/" 
                             fontfamily="Roboto" 
@@ -41,59 +42,59 @@ function Header() {
                             hoverdecoration="none"
                             hovercolor="#2c9cec">
                         Home
-                        </Link>
-                        <Link 
+                        </LinkTo>
+                        <LinkTo 
                             color="#666666" 
-                            href="/#sobre"  
+                            href="/" 
+                            fontfamily="Roboto" 
                             fontsize="20px" 
                             fontweight="400" 
-                            fontfamily="Roboto" 
-                            hoverdecoration="none" 
-                            hovercolor="#2c9cec">   
+                            hoverdecoration="none"
+                            hovercolor="#2c9cec">
                         Sobre
-                        </Link>
-                        <Link 
+                        </LinkTo>
+                        <LinkTo 
                             color="#666666" 
-                            href="/TechStack"
+                            href="#conhecimentos" 
+                            fontfamily="Roboto" 
                             fontsize="20px" 
                             fontweight="400" 
-                            fontfamily="Roboto" 
-                            hoverdecoration="none" 
+                            hoverdecoration="none"
                             hovercolor="#2c9cec">
-                        Tech Stack
-                        </Link>
-                        <Link 
+                        Conhecimentos
+                        </LinkTo>
+                        <LinkTo 
                             color="#666666" 
-                            href="/#projetos"   
+                            href="#projectGrid" 
+                            fontfamily="Roboto" 
                             fontsize="20px" 
                             fontweight="400" 
-                            fontfamily="Roboto" 
-                            hoverdecoration="none" 
+                            hoverdecoration="none"
                             hovercolor="#2c9cec">
-                        Projetos
-                        </Link>
-                        <Link 
+                        Projeto
+                        </LinkTo>
+                        <LinkTo 
                             color="#666666" 
-                            href="/#contato"  
+                            href="/" 
+                            fontfamily="Roboto" 
                             fontsize="20px" 
                             fontweight="400" 
-                            fontfamily="Roboto" 
-                            hoverdecoration="none" 
+                            hoverdecoration="none"
                             hovercolor="#2c9cec">
                         Contato
-                        </Link>
+                        </LinkTo>
                     </DivContainerText>
                     <DivFlexLogo 
                         gap="10px">
-                        <Link 
+                        <LinkTo 
                             href="https://github.com/guiestrela" target="_blank">
                             <Img src={gitlogo} />
-                        </Link>                    
-                        <Link 
+                        </LinkTo>                    
+                        <LinkTo 
                             href="https://www.linkedin.com/in/guilherme-estrela-4166a539/" 
                             target="_blank">
                             <Img src={linkedinlogo} />
-                        </Link>
+                        </LinkTo>
                     </DivFlexLogo>
                 </DivFlex>
             </DivFlex>

@@ -3,7 +3,7 @@ import {
     DivFlex, 
     DivFlexImage, 
     Img, 
-    Link, 
+    LinkTo, 
     Texto, 
     TitleH2 
 } from "../../../uiKit";
@@ -22,17 +22,17 @@ interface ProjectModelProps {
 function ProjectModel({ foto, titulo, descricao, techStack, iconPreview, iconGit, linkPreview, linkGit }: ProjectModelProps) {
     return (
         <>
-            <DivFlex 
-                        width="373px"                                                
-                        backgroundColor="#FFFFFF"
-                        flexdirection="column"
-                        paddingbottom="40px"  
-                        borderradius="10px"                      
-                        >
-                        <DivFlexImage>
-                            <Img
-                                borderradius="10px" 
-                                src={ foto }/>
+            <DivFlex                 
+                width="373px"                                                
+                backgroundColor="#FFFFFF"
+                flexdirection="column"
+                paddingbottom="40px"  
+                borderradius="10px"                      
+                >
+                <DivFlexImage>
+                    <Img
+                        borderradius="10px" 
+                        src={ foto }/>
                         </DivFlexImage>
                         <DivContainerText
                             flexdirection="column"
@@ -104,7 +104,7 @@ function ProjectModel({ foto, titulo, descricao, techStack, iconPreview, iconGit
                                     height={"20px"} 
                                     alignitens="center"
                                     src={ iconPreview }/>
-                                <Link 
+                                <LinkTo 
                                     fontsize="14px"
                                     fontweight="400"
                                     fontfamily="Roboto"
@@ -113,7 +113,7 @@ function ProjectModel({ foto, titulo, descricao, techStack, iconPreview, iconGit
                                     target="_blank"
                                     >                               
                                     Live Preview
-                                </Link>
+                                </LinkTo>
                             </DivContainerText>
                             <DivContainerText
                                 flexdirection="row"
@@ -127,7 +127,7 @@ function ProjectModel({ foto, titulo, descricao, techStack, iconPreview, iconGit
                                     height={"20px"} 
                                     alignitens="center"
                                     src={ iconGit }/>
-                                <Link 
+                                <LinkTo 
                                     fontsize="14px"
                                     fontweight="400"
                                     fontfamily="Roboto"
@@ -136,7 +136,7 @@ function ProjectModel({ foto, titulo, descricao, techStack, iconPreview, iconGit
                                     target="_blank"
                                     >                             
                                     Code Preview
-                                </Link>
+                                </LinkTo>
                             </DivContainerText>
                         </DivFlex>         
                     </DivFlex>

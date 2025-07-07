@@ -19,6 +19,7 @@ function TechStack() {
     return(
         <>
             <DivFlex
+            id="conhecimentos"
             width="100%" 
             alignitems="center" 
             justifycontent="center">

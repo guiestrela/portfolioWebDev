@@ -15,6 +15,7 @@ function ProjectGrid(){
     return(
         <>
             <DivFlex
+                id="projectGrid"
                 width="100%" 
                 alignitems="center" 
                 justifycontent="center"
