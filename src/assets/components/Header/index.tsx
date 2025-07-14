@@ -1,4 +1,3 @@
-
 import { 
     DivContainerText, 
     DivFlex, 
@@ -10,6 +9,7 @@ import logo from "../../icons/logo.svg";
 import gitlogo from "../../icons/gitIconGrey.svg";
 import linkedinlogo from "../../icons/linkedinIconGrey.svg";
 
+import { NavLink } from "react-router-dom";
 
 function Header() {
     return(
@@ -43,16 +43,18 @@ function Header() {
                             hovercolor="#2c9cec">
                         Home
                         </LinkTo>
-                        <LinkTo 
-                            color="#666666" 
-                            href="/" 
-                            fontfamily="Roboto" 
-                            fontsize="20px" 
-                            fontweight="400" 
-                            hoverdecoration="none"
-                            hovercolor="#2c9cec">
-                        Sobre
-                        </LinkTo>
+                        <NavLink 
+                            to="../pages/SobreMin"
+                            style={({ isActive }) => ({
+                                color: isActive ? "#2c9cec" : "#666666",
+                                fontFamily: "Roboto",
+                                fontSize: "20px",
+                                fontWeight: 400,
+                                textDecoration: "none"
+                            })}
+                        >
+                            Sobre
+                        </NavLink>
                         <LinkTo 
                             color="#666666" 
                             href="#conhecimentos" 
