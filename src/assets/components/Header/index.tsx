@@ -33,40 +33,33 @@ function Header() {
                         flexdirection="row" 
                         alignitems="center" 
                         justifycontent="space-between">
-                        <LinkTo 
+                        <NavLink to="/" 
+                            style={{ 
+                                textDecoration: "none"}}>
+                            <LinkTo 
                             color="#666666"                             
                             fontfamily="Roboto" 
                             fontsize="20px" 
                             fontweight="400" 
                             hoverdecoration="none"
                             hovercolor="#2c9cec">
-                        <NavLink to="/" 
+                                Home
+                            </LinkTo>
+                        </NavLink>                       
+                        <NavLink to="/SobreMin" 
                             style={{ 
-                                textDecoration: "none", 
-                                color: "#666666",
-                                fontFamily: "Roboto", 
-                                fontSize: "20px", 
-                                fontWeight: 400 }}>
-                            Home
-                        </NavLink>
-                        </LinkTo>
-                        <LinkTo 
-                            color="#666666"                              
+                                textDecoration: "none"
+                                }}>
+                            <LinkTo 
+                            color="#666666"                             
                             fontfamily="Roboto" 
                             fontsize="20px" 
                             fontweight="400" 
                             hoverdecoration="none"
                             hovercolor="#2c9cec">
-                        <NavLink to="/SobreMin" 
-                            style={{ 
-                                textDecoration: "none", 
-                                color: "#666666",
-                                fontFamily: "Roboto", 
-                                fontSize: "20px", 
-                                fontWeight: 400 }}>
-                            Sobre
-                        </NavLink>
-                        </LinkTo>                      
+                                Sobre
+                            </LinkTo>
+                        </NavLink>                           
                         <LinkTo 
                             color="#666666" 
                             href="#conhecimentos" 
