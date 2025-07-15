@@ -39,36 +39,15 @@ function Header() {
                         <LinkMenu 
                             linkto="/SobreMin" 
                             text="Sobre" />  
-                        <LinkTo 
-                            color="#666666" 
-                            href="#conhecimentos" 
-                            fontfamily="Roboto" 
-                            fontsize="20px" 
-                            fontweight="400" 
-                            hoverdecoration="none"
-                            hovercolor="#2c9cec">
-                        Conhecimentos
-                        </LinkTo>
-                        <LinkTo 
-                            color="#666666" 
-                            href="#projectGrid" 
-                            fontfamily="Roboto" 
-                            fontsize="20px" 
-                            fontweight="400" 
-                            hoverdecoration="none"
-                            hovercolor="#2c9cec">
-                        Projetos
-                        </LinkTo>
-                        <LinkTo 
-                            color="#666666" 
-                            href="/" 
-                            fontfamily="Roboto" 
-                            fontsize="20px" 
-                            fontweight="400" 
-                            hoverdecoration="none"
-                            hovercolor="#2c9cec">
-                        Contato
-                        </LinkTo>
+                        <LinkMenu 
+                            linkto="/Conhecimentos" 
+                            text="Conhecimentos" />
+                        <LinkMenu 
+                            linkto="/Projetos" 
+                            text="Projetos" />
+                        <LinkMenu 
+                            linkto="/Contatos" 
+                            text="Contatos" />
                     </DivContainerText>
                     <DivFlexLogo 
                         gap="10px">

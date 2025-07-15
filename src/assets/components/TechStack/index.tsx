@@ -29,7 +29,7 @@ function TechStack() {
                     alignitems="center" 
                     justifycontent="center"
                     flexdirection="column"
-                    paddingTotal="180px 0">
+                    paddingTotal="280px 0 280px 0">
                     <DivContainerText
                         flexdirection="column"
                         gap="20px"
