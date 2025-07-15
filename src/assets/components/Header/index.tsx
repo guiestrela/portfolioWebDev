@@ -9,7 +9,7 @@ import logo from "../../icons/logo.svg";
 import gitlogo from "../../icons/gitIconGrey.svg";
 import linkedinlogo from "../../icons/linkedinIconGrey.svg";
 
-import { NavLink } from "react-router-dom";
+import LinkMenu from "../LinkMenu";
 
 function Header() {
     return(
@@ -33,33 +33,12 @@ function Header() {
                         flexdirection="row" 
                         alignitems="center" 
                         justifycontent="space-between">
-                        <NavLink to="/" 
-                            style={{ 
-                                textDecoration: "none"}}>
-                            <LinkTo 
-                            color="#666666"                             
-                            fontfamily="Roboto" 
-                            fontsize="20px" 
-                            fontweight="400" 
-                            hoverdecoration="none"
-                            hovercolor="#2c9cec">
-                                Home
-                            </LinkTo>
-                        </NavLink>                       
-                        <NavLink to="/SobreMin" 
-                            style={{ 
-                                textDecoration: "none"
-                                }}>
-                            <LinkTo 
-                            color="#666666"                             
-                            fontfamily="Roboto" 
-                            fontsize="20px" 
-                            fontweight="400" 
-                            hoverdecoration="none"
-                            hovercolor="#2c9cec">
-                                Sobre
-                            </LinkTo>
-                        </NavLink>                           
+                        <LinkMenu 
+                            linkto="/" 
+                            text="Home" />
+                        <LinkMenu 
+                            linkto="/SobreMin" 
+                            text="Sobre" />  
                         <LinkTo 
                             color="#666666" 
                             href="#conhecimentos" 
