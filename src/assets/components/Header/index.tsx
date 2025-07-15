@@ -57,7 +57,7 @@ function Header() {
                             fontweight="400" 
                             hoverdecoration="none"
                             hovercolor="#2c9cec">
-                        Projeto
+                        Projetos
                         </LinkTo>
                         <LinkTo 
                             color="#666666" 
