@@ -21,7 +21,7 @@ function AboutMe() {
                             fontfamily="Roboto"
                             fontsize="58px"
                             fontweight="700"
-                            textalign="start"
+                            textalign="center"
                             color="#42446e">
                             Sobre Mim
                         </Title>
@@ -48,14 +48,15 @@ function AboutMe() {
                         </Texto>
 
                         <DivContainerText
-                        flexdirection="column"
-                        paddingTotal="80px 0px">
+                            flexdirection="column"
+                            paddingTotal="100px 0px">
                             <Title
                                 fontfamily="Roboto"
                                 fontsize="58px"
                                 fontweight="700"
-                                textalign="start"
+                                textalign="center"
                                 color="#42446e"
+                                
                                 >
                                 Formação
                             </Title>
@@ -83,8 +84,8 @@ function AboutMe() {
                             </Texto>
                             <Texto
                                 fontfamily="Roboto"
-                                fontsize="30px"
-                                fontweight="400"
+                                fontsize="25px"
+                                fontweight="300"
                                 textalign="start"
                                 color="#666666"
                                 paddingtop="10px"
