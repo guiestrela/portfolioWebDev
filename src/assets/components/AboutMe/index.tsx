@@ -46,7 +46,6 @@ function AboutMe() {
                             Tenho habilidades sólidas em <strong>React</strong> assim como, HTML, CSS, JavaScript e Typescript, e estou sempre aprendendo novas tecnologias para aprimorar minhas habilidades. Estou animado para contribuir com projetos desafiadores e colaborar com equipes talentosas.
                             Se você está procurando um desenvolvedor dedicado e criativo, estou aqui para ajudar. Vamos criar algo incrível juntos!
                         </Texto>
-
                         <DivContainerText
                             flexdirection="column"
                             paddingTotal="100px 0px">
@@ -94,7 +93,6 @@ function AboutMe() {
                             </Texto>
                             </DivContainerText>
                         </DivContainerText>
-
                     </DivContainerText>                      
                 </DivFlex>
             </DivFlex>                
