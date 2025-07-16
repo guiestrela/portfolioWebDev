@@ -49,7 +49,7 @@ function AboutMe() {
 
                         <DivContainerText
                         flexdirection="column"
-                        paddingTotal="80px 20px">
+                        paddingTotal="80px 0px">
                             <Title
                                 fontfamily="Roboto"
                                 fontsize="58px"
