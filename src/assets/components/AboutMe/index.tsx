@@ -27,7 +27,7 @@ function AboutMe() {
                         </Title>
                         <Texto
                             fontfamily="Roboto"
-                            fontsize="30px"
+                            fontsize="25px"
                             fontweight="400"
                             textalign="start"
                             color="#666666"
@@ -37,7 +37,7 @@ function AboutMe() {
                         </Texto>
                             <Texto
                             fontfamily="Roboto"
-                            fontsize="30px"
+                            fontsize="25px"
                             fontweight="400"
                             textalign="start"
                             color="#666666"
@@ -61,7 +61,7 @@ function AboutMe() {
                             </Title>
                             <Texto
                                 fontfamily="Roboto"
-                                fontsize="30px"
+                                fontsize="25px"
                                 fontweight="400"
                                 textalign="start"
                                 color="#666666"
@@ -73,7 +73,7 @@ function AboutMe() {
                                 justifycontent="space-between">
                                 <Texto
                                 fontfamily="Roboto"
-                                fontsize="30px"
+                                fontsize="25px"
                                 fontweight="bold"
                                 textalign="start"
                                 color="#666666"
@@ -83,7 +83,7 @@ function AboutMe() {
                             </Texto>
                             <Texto
                                 fontfamily="Roboto"
-                                fontsize="25px"
+                                fontsize="20px"
                                 fontweight="300"
                                 textalign="start"
                                 color="#666666"
