@@ -6,7 +6,7 @@ import {
     Texto, 
     Title } from "../../../uiKit";
 
-import perfil from "../../images/perfil.png"
+import perfil from "../../images/perfil02.png"
 
 function Banner(){
     return(
