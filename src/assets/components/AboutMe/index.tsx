@@ -72,25 +72,25 @@ function AboutMe() {
                             <DivContainerText
                                 justifycontent="space-between">
                                 <Texto
-                                fontfamily="Roboto"
-                                fontsize="25px"
-                                fontweight="bold"
-                                textalign="start"
-                                color="#666666"
-                                paddingtop="10px"
-                                >                            
-                                Anhanguera Educacional
-                            </Texto>
-                            <Texto
-                                fontfamily="Roboto"
-                                fontsize="20px"
-                                fontweight="300"
-                                textalign="start"
-                                color="#666666"
-                                paddingtop="10px"
-                                >                            
-                                Jan - 2023 - Dez - 2024
-                            </Texto>
+                                    fontfamily="Roboto"
+                                    fontsize="25px"
+                                    fontweight="bold"
+                                    textalign="start"
+                                    color="#666666"
+                                    paddingtop="10px"
+                                    >                            
+                                    Anhanguera Educacional
+                                </Texto>
+                                <Texto
+                                    fontfamily="Roboto"
+                                    fontsize="20px"
+                                    fontweight="300"
+                                    textalign="start"
+                                    color="#666666"
+                                    paddingtop="10px"
+                                    >                            
+                                    Jan - 2023 - Dez - 2024
+                                </Texto>
                             </DivContainerText>
                         </DivContainerText>
                     </DivContainerText>                      
