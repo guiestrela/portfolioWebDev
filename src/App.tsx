@@ -1,4 +1,7 @@
-import { Routes, Route } from "react-router-dom"
+import { 
+  Routes, 
+  Route } 
+  from "react-router-dom"
 import Home from "./assets/pages/Home"
 import SobreMin from "./assets/pages/SobreMin"
 import Conhecimentos from "./assets/pages/Conhecimentos"
