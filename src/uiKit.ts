@@ -32,6 +32,9 @@ interface DivFlexType {
     borderright?: string
     borderbottom?: string
     borderleft?: string
+    display?: string
+    position?: string
+
 
     //Mobile
     justifycontentmob?: string
@@ -54,7 +57,8 @@ interface DivFlexType {
 }
 
 export const DivFlex = styled.div<DivFlexType>`
-    display: flex;
+    display: ${props => props.display ? props.display : "flex"};
+    position: ${props => props.position ? props.position : ""};
     height: ${props => props.height ? props.height : ""};
     width: ${props => props.width ? props.width : ""};
     max-width: ${props => props.maxwidth ? props.maxwidth : ""};
@@ -674,4 +678,4 @@ export const Img = styled.img<ImgType>`
         width: ${props => props.widthmob ? props.widthmob : ""};
         height: ${props => props.heightmob ? props.heightmob : ""};
     }
-`;  
+`;
