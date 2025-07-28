@@ -33,12 +33,15 @@ export function MenuHamburguer() {
             background="#fff"
             borderradius="10px"
             padding="20px"
-            width="250px"            
+            margin="200px 0 0 0"
+            width="250px"
+            height="100%"            
             fontfamily="Roboto"
             fontsize="24px"            
             flexdirection="column"
             alignitems="center"
             justifycontent="center"
+            position="absolute"
             >
             <ul>
                 <li>

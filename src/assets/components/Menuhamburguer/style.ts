@@ -78,6 +78,7 @@ interface MenuBurguerType {
     borderradius?: string
     border?: string
     padding?: string
+    margin?: string
     width?: string
     height?: string
     fontfamily?: string
@@ -88,6 +89,7 @@ interface MenuBurguerType {
     alignitems?: string
     fontweight?: string
     gap?: string
+    position?:string
 
     colorhover?: string
     colorlink?: string
@@ -98,13 +100,14 @@ interface MenuBurguerType {
 
 export const MenuBurguer = styled.nav<MenuBurguerType>`
     display: flex;
+    position: ${props => props.position ? props.position : "relative"};
     justify-content: ${props => props.justifycontent ? props.justifycontent : "center"};
-    align-items: ${props => props.alignitems ? props.alignitems : "center"};
-    position: sticky;
+    align-items: ${props => props.alignitems ? props.alignitems : "center"};    
     background-color: ${props => props.background ? props.background : "transparent"};
     border-radius: ${props => props.borderradius ? props.borderradius : "10px"};
     border: ${props => props.border ? props.border : "none"};
     padding: ${props => props.padding ? props.padding : "20px"};
+    margin: ${props => props.margin ? props.margin : "0"};
     width: ${props => props.width ? props.width : "100%"};
     height: ${props => props.height ? props.height : "100%"};
     font-family: ${props => props.fontfamily ? props.fontfamily : "Poppins"};
@@ -112,7 +115,7 @@ export const MenuBurguer = styled.nav<MenuBurguerType>`
     color: ${props => props.color ? props.color : "#000000"};
     font-weight: ${props => props.fontweight ? props.fontweight : "400"};
     gap: ${props => props.gap ? props.gap : "20px"};
-    
+
 
 
     ul {
