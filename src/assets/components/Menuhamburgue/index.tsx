@@ -1,8 +1,7 @@
 function MenuHamburguer() {
     return (
-        <div>
-        <button>Menu</button>
-        </div>
+        <>
+        </>
     );
 }
 
