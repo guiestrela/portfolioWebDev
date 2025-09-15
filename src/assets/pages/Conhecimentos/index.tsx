@@ -12,5 +12,4 @@ function Conhecimentos() {
     );
 }
 
-
 export default Conhecimentos;
